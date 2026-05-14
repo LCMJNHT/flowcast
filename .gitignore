@@ -1,0 +1,15 @@
+.DS_Store
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/build/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+
+# IDE
+.idea/
+*.iml
