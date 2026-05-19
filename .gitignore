@@ -1,15 +1,19 @@
 .DS_Store
 
 # Android
+*.hprof
 android/.gradle/
 android/local.properties
 android/**/build/
 
 # Python
 backend/.venv/
+backend/.env
+backend/.env.*
 backend/__pycache__/
 backend/**/*.pyc
 
 # IDE
+.claude/settings.local.json
 .idea/
 *.iml
